@@ -106,6 +106,7 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-flex;
     padding-top: 10px;
 }
+
 .input-registro p {
     font-size: 16px;
     margin: 0px 15px;
@@ -126,6 +127,7 @@ h1,h2,h3,h4,h5,h6 {
 .btn-conducir {
     background-color: white;
     color: #2b2b2b;
+    font-weight: 600;
 }
 
 .btn-conducir:hover {
@@ -216,7 +218,7 @@ h1,h2,h3,h4,h5,h6 {
 /* Section Mapa */
 
 .mapa {
-    background-color:  #f7b617;
+    background-color: #F7B617;
     padding: 50px 0;
 }
 
@@ -336,4 +338,27 @@ footer {
 .redes-sociales-2 i {
     color: white;
     padding: 0 3px;
+}
+
+/* Section Registro Responsive */
+
+.conductor-taxi {
+    margin-right: 0;
+}
+
+.cuadro-2 {
+    margin-top: -76px;
+    background-color: #f7b617;
+    height: 230px;
+    color: white;
+    padding: 65px 40px 50px 50px;
+}
+
+.cuadro-2 h1 {
+    padding-bottom: 10px;
+    margin-top: -30px;
+}
+
+.cuadro-2 img {
+    padding-bottom: 20px;
 }

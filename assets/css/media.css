@@ -1,0 +1,104 @@
+@media (min-width: 1px) and (max-width: 425px){
+
+	.menu-navbar {
+		display: none;
+	}
+
+	#nav li {
+		padding: 10px 0;
+	}
+
+	/* Section Registro */
+
+	.registro {
+    background-image: url(../img/taxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-position-y: -270px; 
+    padding: 90px 0;
+	}
+
+	/* Section App */
+
+	.app {
+		padding: 20px;
+	}
+
+	.estilo-app {
+		border: 1px solid white;
+	}
+
+	.contenedor-app img {
+		margin-left: 30px;
+		padding: 10px 0 0 0;
+	}
+
+	.destino {
+		color: white;
+		font-size: 14px;
+		font-weight: 200;
+	}
+
+	/* Section Conducir */
+
+	.btn-conducir {
+		margin: -116px -126px -200px;
+	}
+
+	.conducir {
+		height: 75vh;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position-y: 0;
+	}
+
+	.fondo-transparente {
+		background-color: rgba(0,0,0, 0.5);
+		height: 250px;
+		padding: 20px 10px;
+	}
+
+	.fondo-transparente h2 {
+		color: white;
+		font-size: 30px;
+		margin-top: 40px;
+		line-height:20px;		
+	}
+
+	/* Section Mapa */
+
+	.texto-mapa {
+	   padding: 25px 65px;
+	}
+
+	#ruta {
+	    margin-left: 85px;
+	    margin-top: 10px;
+	}
+
+	.input-mapa input {
+    	width: 200px;
+	}
+
+	.costos {
+	    margin-left: 50px;
+	}
+
+	/* Footer */
+
+	.logos {
+		margin-top: 10px;
+	}
+	
+	.logos img {
+		width: 100%;
+	}
+	
+}	
+
+@media (min-width: 768px){
+	#nav {
+		display: none;
+	}
+}
