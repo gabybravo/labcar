@@ -177,3 +177,38 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 18px;
     font-weight: 200;
 }
+
+/* Section Conducir */
+
+.conducir {
+    background-image: url(../img/conduce.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.fondo-transparente {
+    background-color: rgba(0,0,0, 0.5);
+    height: 454px;
+    padding: 150px 30px;
+}
+
+.fondo-transparente h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height:20px;       
+}
+
+.fondo-transparente p {
+    color: white;   
+    font-size: 16px;
+    font-weight: 200;       
+}
+
+.fondo-transparente button {
+    background-color: #f7b617;
+    color: white;   
+    border: none;
+}
