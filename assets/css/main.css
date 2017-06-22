@@ -288,3 +288,52 @@ h1,h2,h3,h4,h5,h6 {
     padding: 10px;
     margin-left: 110px;
 }
+
+/* Footer */
+
+footer {
+    background-color: #2b2b2b;
+    padding: 50px 10px;
+}
+
+.redes-sociales {
+    margin-top: 220px;
+}
+
+.redes-sociales i {
+    color: white;
+    padding: 0 5px;
+}
+
+.otros-links li {
+    list-style:none;
+    padding-bottom: 10px;   
+}
+
+.otros-links li a {
+    color: #BFBFBF;
+    font-weight: 100;
+}
+
+.otros-links li a:hover {
+    color: #f7b617;
+    text-decoration: none;
+}
+
+.logos {
+    margin-top: 120px;
+}
+
+.logos img {
+    width: 60%;
+    padding-bottom: 10px;
+}
+
+.footer-2 {
+    color: white;
+}
+
+.redes-sociales-2 i {
+    color: white;
+    padding: 0 3px;
+}
