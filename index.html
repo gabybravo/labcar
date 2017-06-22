@@ -110,6 +110,39 @@
 		</div>		
 	</section>
 
+	<!-- Section Mapa -->
+	<section class="mapa">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 texto-mapa">
+					<h2>Tarifas</h2>
+					<p>Consulta las tarifas LabCar aquí:</p>
+					<div>
+						<div class="entrada-mapa">
+							<img src="assets/img/circulo.png" class="icono-input" alt="">
+							<input class="input-mapa" type="text" id="origen" placeholder="Ingrese su punto de partida">
+						</div>
+						<div class="entrada-mapa">
+							<img src="assets/img/flecha.png" class="icono-input" alt="">
+							<input class="input-mapa" type="text" id="destino" placeholder="Ingrese su destino">
+						</div>	
+						<div>
+							<button id="ruta" class="btn btn-default">¡TRAZAR RUTA!</button>
+						</div>
+						<div class="respuesta" id="output"></div>					
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-5 hidden-sm hidden-xs el-mapa">
+					<div class="recuadro-mapa">
+						<div class="img-mapa" id="map">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+	
 	
 </body>
 </html>

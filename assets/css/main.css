@@ -190,7 +190,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .fondo-transparente {
     background-color: rgba(0,0,0, 0.5);
-    height: 454px;
+    height: 447px;
     padding: 150px 30px;
 }
 
@@ -211,4 +211,80 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #f7b617;
     color: white;   
     border: none;
+}
+
+/* Section Mapa */
+
+.mapa {
+    background-color:  #f7b617;
+    padding: 50px 0;
+}
+
+.texto-mapa {
+    padding-top: 50px;
+    color: white;
+}
+
+.texto-mapa h2 {
+    font-size: 25px;
+    line-height:20px;   
+    padding-bottom: 30px;
+}
+
+.texto-mapa p {
+    font-size: 14px;
+    line-height:20px;   
+    padding-bottom: 10px;
+}
+
+.entrada-mapa {
+    margin: 15px 0;
+}
+
+.icono-input {
+    margin: 0 20px 0 0;
+    opacity: 0.8;
+}
+
+.entrada-mapa input{
+    width: 250px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px;
+    border-color: white;
+}
+
+.input-mapa::-webkit-input-placeholder { 
+    color: white; 
+    opacity: 0.8;
+}
+
+#ruta {
+    padding: 5px 20px;
+    margin-left: 100px;
+    font-weight: 600;
+    border: none;
+}
+
+.img-mapa {  
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+}
+
+.recuadro-mapa {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.costos {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 110px;
 }
