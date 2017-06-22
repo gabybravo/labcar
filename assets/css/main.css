@@ -60,3 +60,75 @@ h1,h2,h3,h4,h5,h6 {
     padding-right: 30px;
     padding-top: 10px;
 }
+
+/* Section Registro */
+
+.registro {
+    background-image: url(../img/taxi.jpg);
+    height: 180vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-y: -1245px;    
+    padding: 90px 0;
+}
+
+.cuadro-1 {
+    background-color: #f7b617;
+    height: 350px;
+    color: white;
+    padding: 40px 20px 50px 40px;
+}
+
+.cuadro-1 h1 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+
+.cuadro-1 p {
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+
+.cuadro-1 p img {
+    width: 90px;
+    margin: 15px;
+}
+
+.cuadro-1 h4 {
+    font-size: 15px;    
+}
+
+.input-registro {
+    display: inline-flex;
+    padding-top: 10px;
+}
+.input-registro p {
+    font-size: 16px;
+    margin: 0px 15px;
+}
+
+.clase-input {
+    width: 150px;
+    margin: 0 35px;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.btn-conducir {
+    background-color: white;
+    color: #2b2b2b;
+}
+
+.btn-conducir:hover {
+    background-color: #EBEBEB;
+    color: #f7b617;
+}
