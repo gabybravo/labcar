@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+
+/* HEADER */
+
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.navbar {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 0;
+    padding: 5px 0  0 10px;   
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+    border: none;
+	margin-top: 16px;
+}
+
+.navbar-brand {
+    padding: 13px 0;
+    font-size: 18px;
+}
+
+.navbar-header {
+	width: 100px;
+	height: 25px;
+}
+
+.logo {
+	position: relative;
+    left: 130px;
+    bottom: 35px;
+}
+
+.logo img {
+	width: 100px;
+	height: 25px;
+}
+
+.nav>li>a {
+    padding: 10px 25px;
+    font-size: 14px;
+}
+
+.navbar-right {
+    padding-right: 30px;
+    padding-top: 10px;
+}
